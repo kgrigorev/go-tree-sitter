@@ -2,8 +2,8 @@ package treesitter_test
 
 import (
 	"fmt"
+	treesitter "github.com/kgrigorev/go-tree-sitter"
 	"github.com/stretchr/testify/assert"
-	"glide/lib/treesitter"
 	"testing"
 )
 
@@ -61,8 +61,8 @@ func run(a int) error {
 			fmt.Println(node.String())
 			var (
 				point treesitter.Point
-				b uint32
-				err error
+				b     uint32
+				err   error
 			)
 			point, err = node.StartPoint()
 			fmt.Println("start point", point, err)

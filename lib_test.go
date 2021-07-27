@@ -2,8 +2,8 @@ package treesitter_test
 
 import (
 	"fmt"
+	treesitter "github.com/kgrigorev/go-tree-sitter"
 	"github.com/stretchr/testify/assert"
-	"glide/lib/treesitter"
 	"io"
 	"os"
 	"runtime"
@@ -73,4 +73,3 @@ func traverse(node treesitter.Node) {
 		traverse(child)
 	}
 }
-
