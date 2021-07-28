@@ -2,8 +2,8 @@ package treesitter_test
 
 import (
 	"fmt"
-	treesitter "github.com/kgrigorev/go-tree-sitter"
 	"github.com/stretchr/testify/assert"
+	treesitter "glide/lib/go-tree-sitter"
 	"testing"
 )
 
