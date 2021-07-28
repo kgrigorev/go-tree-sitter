@@ -1,6 +1,6 @@
 package treesitter
 
-// #cgo CFLAGS: -Ivendor/tree-sitter/lib/include -Ivendor/tree-sitter/lib/src
+// #cgo CFLAGS: -Itree-sitter/lib/include -Itree-sitter/lib/src
 // #include <lib.c>
 import "C"
 import (

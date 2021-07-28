@@ -1,7 +1,7 @@
 package treesitter
 
-// #cgo CFLAGS: -Ivendor/tree-sitter-go/src
-// #include "vendor/tree-sitter-go/src/parser.c"
+// #cgo CFLAGS: -Itree-sitter-go/src
+// #include "tree-sitter-go/src/parser.c"
 import "C"
 
 var (
