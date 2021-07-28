@@ -212,8 +212,8 @@ func (node Node) StartPoint() (Point, error) {
 		return Point{}, err
 	}
 	return Point{
-		row:    uint32(ts.row),
-		column: uint32(ts.column),
+		Row:    uint32(ts.row),
+		Column: uint32(ts.column),
 	}, nil
 }
 
@@ -223,13 +223,13 @@ func (node Node) EndPoint() (Point, error) {
 		return Point{}, err
 	}
 	return Point{
-		row:    uint32(ts.row),
-		column: uint32(ts.column),
+		Row:    uint32(ts.row),
+		Column: uint32(ts.column),
 	}, nil
 }
 
 type Point struct {
-	row, column uint32
+	Row, Column uint32
 }
 
 type Query struct {
